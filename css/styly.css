@@ -4,7 +4,7 @@
   --brand-color: #4d5ae5;
   --secondary-brand-color: #404bbf;
   --text-color: #434455;
-  --light-text-color: #f4f4fd;
+  --light-text-color: hsl(240, 69%, 97%);
 }
 body {
   background-color: var(--primary-white-color);
@@ -124,7 +124,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--accent-dark-color);
+  color: var(--text-color);
 }
 
 .principles-item-text,
